@@ -39,6 +39,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>springcloud-eureka</finalName><!-- 1.配置一个包名  2.如果没有设置，打包后的报名artifactId与version拼接的 -->
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
